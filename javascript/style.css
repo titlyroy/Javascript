@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(68, 110, 81);
+    color: black;
+}
+/* button{
+
+    background-color: rgb(14, 70, 30);
+} */
+/* div{
+    background-color: aqua;
+    height: 80px;
+    width: 80px;
+} */
+
+/* input{
+    color:black;
+    background: rgb(108, 199, 108);
+    font-size: medium;
+} */
+
+div{
+   height: 250px;
+   width: 150px;
+   border: solid  black 1px;
+   background-color: rgb(98, 150, 150);
+}
+.listpara{
+    color: brown;
+    
+}
+.para{
+    text-decoration: underline;
+}
