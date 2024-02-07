@@ -3,39 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Let's Play Tic-Tac-Toe Game!</title>
+    <title>Rock-Paper-Scissors Game!</title>
     <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <div class="msg-container hide">
-        <p id="msg"> Winner </p>
-        <button id="new-btn"> New Game </button>
-        <br>
-        <img src="https://www.icegif.com/wp-content/uploads/2023/09/icegif-508.gif" alt="dancing">
+    <h1>Rock-Paper-Scissors</h1>
+    <div class="choices">
+     <div class="choice"id="rock"> 
+        <img src="./rock.png" alt="Rock"></img>
+     </div>
+     <div class="choice"id="paper"> 
+        <img src="./paper.png" alt="paper"></img>
+     </div>
+     <div class="choice" id="scissors">
+        <img src="./scissors.png" alt="scissors"></img>
+     </div>
     </div>
-    
-    <main>
-    <h1> Tic-Tac-Toe </h1>
-  
-    <div class="container">
-    
-<div class="game">
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-    <button class="box"></button>
-</div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
 
-</div>
-</main>
-<button id="reset-btn"> Reset </button>
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
 
-
-   <script src="app.js"></script> 
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
